@@ -1,0 +1,1080 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 100px 100px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+    background-color: #1e1e1e;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    height: 40px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.top-button {
+    height: 40px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/*Header*/
+
+#header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header img{
+    height: 80px;
+    width: auto;
+    padding: 20px 90px;
+}
+
+#header ul {
+    display: flex;
+    color: #DEDAD7;
+    gap: 80px;
+    padding: 20px 90px;
+}
+
+#header ul .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#header ul .unactive {
+    font-weight: 100;
+}
+
+#header ul a {
+    color: white;
+    
+}
+
+#header ul a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/*Hero*/
+
+#hero {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#hero .hero-text {
+    padding: 0px 100px;
+}
+
+#hero .hero-text h4 {
+    color: gray;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#hero .hero-text h2 {
+    color: #DEDAD7;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+#hero .hero-text button {
+    color: #DEDAD7;
+    font-size: 20px;
+    transition: 0.30s ease;
+}
+
+#hero .hero-text button:hover {
+    background-color: #DEDAD7;
+    cursor: pointer;
+    color: black;
+}
+
+#hero .hero-img img {
+    height: auto;
+    width: 550px;
+    padding: 0px 120px 90px 0px;
+}
+
+
+/*product details*/
+
+#product-details {
+    background-color: black;
+}
+
+#product-details .top-text h1,h5 {
+    color: #DEDAD7;
+    padding: 10px;
+}
+
+#product-details .top-text h5 {
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+
+#product-details .top-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.product {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.product-image{
+    margin: 20px;
+    flex: 1;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.product-info {
+
+    margin: 20px;
+    flex: 2;
+}
+
+.product-info ul {
+
+    padding: 10px;
+    color: #DEDAD7;
+    
+}
+
+.product-info ul li {
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/*FAQ*/
+
+#FAQ {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#FAQ h1 {
+    color: #DEDAD7;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.faq {
+    width: 600px;
+    margin: auto;
+}
+
+.question {
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    border: 0.5px solid #ddd;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #DEDAD7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.question p:hover {
+    text-decoration: underline;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    color: #DEDAD7;
+    font-weight: lighter;
+}
+
+#returns {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#returns h1,p,button {
+    padding: 10px 0px;
+}
+
+#returns button {
+    color: #DEDAD7;
+    font-size: 17px;
+    transition: 0.30s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+}
+
+#returns button:hover {
+    background-color: #DEDAD7;
+    cursor: pointer;
+    color: black;
+}
+
+#returns h1 {
+    color: #DEDAD7;
+}
+
+#returns p {
+    color: gray;
+}
+
+
+/*newsletter*/
+
+#newsletter-section {
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+.newsletter-title {
+    font-size: 24px;
+    color: #DEDAD7;
+    margin-bottom: 10px;
+}
+
+.newsletter-description {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+#newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#newsletter-section form button{
+    padding: 10px 20px;
+    color: #DEDAD7;
+    cursor: pointer;
+}
+
+/*Footer*/
+.list-payment {
+    display: flex;
+    gap: 5px;
+    margin: 15px 0px;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e1e1e;
+}
+
+footer .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 20%;
+}
+
+footer .column a {
+    color: #DEDAD7;
+    margin: 5px 0px;
+}
+
+footer .column p {
+    margin: 5px;
+}
+
+.column h4,p {
+    color: #DEDAD7;
+}
+
+.footer__payment .visually-hidden {
+    margin: 5px 0px;
+    color: #DEDAD7;
+}
+
+
+/*copyright*/
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+}
+
+.copyright p {
+    color: #DEDAD7;
+    font-size: 10px;
+}
+
+.about-section h1{
+    color: #DEDAD7;
+}
+
+.about-section h4{
+    color: gray;
+}
+
+
+/*item*/
+
+.review-image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.review-image img {
+    height: 33px;
+}
+
+.review-image p {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+/*media queries*/
+
+
+@media screen and (max-width: 2560px) {
+    /* Add styles for screens up to 2560px wide */
+    #header ul {
+        padding-right: 370px;
+    }
+
+    #header img {
+        padding-left: 280px;
+    }
+
+    #hero .hero-img img {
+        padding: 10px;
+    }
+
+    #hero {
+        justify-content: space-around;
+    }
+    
+    .product {
+        height: 1000px;
+    }
+
+    .product-info ul {
+        font-size: 30px;
+    }
+
+    #newsletter-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .email-input {
+        padding: 10px;
+        width: 450px;
+        height: 70px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 25px;
+    }
+
+    #newsletter-section form button {
+        height: 80px;
+        width: 200px;
+        font-size: 30px;
+    }
+
+    .newsletter-title {
+        font-size: 45px;
+    }
+
+    .newsletter-description {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    /* Add styles for screens up to 1440px wide */
+    #header ul {
+        padding-right: 220px;
+    }
+
+    #header img {
+        padding-left: 150px;
+    }
+
+    .product-info ul {
+        font-size: 15px;
+    }
+
+    .product {
+        height: 520px;
+    }
+
+    .email-input {
+        padding: 10px;
+        width: 330px;
+        height: 70px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 25px;
+    }
+
+    #newsletter-section form button {
+        height: 70px;
+        width: 160px;
+        font-size: 25px;
+    }
+
+    .newsletter-title {
+        font-size: 30px;
+    }
+
+    .newsletter-description {
+        font-size: 14px;
+    }
+
+    .email-input {
+        padding: 10px;
+        width: 240px;
+        height: 35px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 17px;
+    }
+
+    #newsletter-section form button {
+        height: 43px;
+        width: 110px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* Add styles for screens up to 1024px wide */
+    #header ul {
+        padding-right: 150px;
+    }
+
+    #header img {
+        padding-left: 70px;
+    }
+
+    #hero .hero-img img {
+        padding: 10px;
+    }
+
+    .product-info ul {
+        font-size: 9px;
+    }
+
+    .product {
+        height: 330px;
+    }
+
+    .newsletter-title {
+        font-size: 30px;
+    }
+
+    .newsletter-description {
+        font-size: 15px;
+    }
+
+    .email-input {
+        padding: 10px;
+        width: 200px;
+        height: 40px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+
+    #newsletter-section form button {
+        height: 48px;
+        width: 115px;
+        font-size: 16px;
+    }
+
+    footer .column {
+        font-size: 10px;
+    }
+    footer .column p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    /* Add styles for screens up to 912px wide */
+
+    #header ul {
+        padding-right: 30px;
+    }
+
+    #header img {
+        padding-left: 40px;
+    }
+
+    #hero .hero-img img {
+        height: auto;
+        width: 350px;
+        padding: 50px 0px 90px 0px;
+        padding-right: 50px;
+    }
+
+    #hero .hero-text {
+        padding: 0px 40px;
+    }
+
+    .product-info ul {
+        font-size: 11px;
+    }
+
+    .product-info ul li {
+        padding: 1px 0px;
+        margin-bottom: 6px;
+        font-weight: 100;
+    }
+
+    .product {
+        height: 288px;
+    }
+
+    #newsletter-section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .about-img {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    /* Add styles for screens up to 820px wide */
+
+    #header ul {
+        padding-right: 30px;
+    }
+
+    #header img {
+        padding-left: 40px;
+    }
+
+    #hero .hero-img img {
+        height: auto;
+        width: 350px;
+        padding: 50px 0px 90px 0px;
+        padding-right: 50px;
+    }
+
+    #hero .hero-text {
+        padding: 0px 40px;
+    }
+
+    video {
+        width: 100%;
+        height: 550px;
+    }
+    .product {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+
+    .product-info ul {
+        font-size: 14px;
+        border-radius: 20px;
+    }
+
+    .product-info ul li {
+        padding: 1px 0px;
+        margin-bottom: 21px;
+        
+        font-weight: 100;
+        
+    }
+
+    .newsletter-title {
+        font-size: 22px;
+    }
+
+    .newsletter-description {
+        font-size: 10px;
+    }
+
+    .email-input {
+        padding: 10px;
+        width: 170px;
+        height: 30px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    #newsletter-section form button {
+        height: 34px;
+        width: 81px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Add styles for screens up to 768px wide */
+
+    #header ul {
+        padding-right: 30px;
+    }
+
+    #header img {
+        padding-left: 40px;
+    }
+
+    #hero .hero-img img {
+        height: auto;
+        width: 350px;
+        padding: 50px 0px 90px 0px;
+        padding-right: 50px;
+    }
+
+    #hero .hero-text {
+        padding: 0px 40px;
+    }
+
+    video {
+        width: 100%;
+        height: 550px;
+    }
+    .product {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+
+    .product-info ul {
+        font-size: 14px;
+        border-radius: 20px;
+    }
+
+    .product-info ul li {
+        padding: 1px 0px;
+        margin-bottom: 21px;
+        
+        font-weight: 100;
+        
+    }
+
+    .newsletter-title {
+        font-size: 22px;
+    }
+
+    .newsletter-description {
+        font-size: 10px;
+    }
+
+    .email-input {
+        padding: 10px;
+        width: 170px;
+        height: 30px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    #newsletter-section form button {
+        height: 34px;
+        width: 81px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    /* Add styles for screens up to 540px wide */
+    #hero {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+        align-items: flex-start; /* Align items to the start of the column */
+    }
+
+    .hero-img {
+        order: -1; /* Move .hero-img to the beginning of the flex container */
+        margin-top: 20px; /* Add some space between .hero-text and .hero-img */
+    }
+
+    #hero .hero-img img {
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    #header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #header ul {
+        padding: 30px;
+    }
+
+    #header img {
+        padding: 20px;
+    }
+
+    #product-details .product {
+        flex-direction: column;
+    }
+
+    #hero .hero-text h2 {
+        padding: 20px 0px;
+    }
+
+    #hero .hero-text {
+        padding: 30px 40px;
+    }
+
+    #product-details {
+        padding: 100px 30px;
+    }
+
+    video {
+        width: 100%;
+        height: 450px;
+    }
+
+    #newsletter-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #newsletter-section {
+        padding-top: 20px;
+    }
+
+    footer .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #1e1e1e;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .faq {
+        width: 200px;
+        margin: auto;
+    }
+
+    #FAQ h1 {
+        color: #DEDAD7;
+        padding-bottom: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #FAQ {
+        padding: 50px 10px;
+    }
+
+    .about-img {
+        height: 500px;
+    }
+
+    #returns h1 {
+        color: #DEDAD7;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .review-image p {
+        font-size: 10px;
+        padding: 0px 10px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    /* Add styles for screens up to 430px wide */
+    #hero {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+        align-items: flex-start; /* Align items to the start of the column */
+    }
+
+    .hero-img {
+        order: -1; /* Move .hero-img to the beginning of the flex container */
+        margin-top: 20px; /* Add some space between .hero-text and .hero-img */
+    }
+
+    #hero .hero-img img {
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    #header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #header ul {
+        padding: 30px;
+    }
+
+    #header img {
+        padding: 20px;
+    }
+
+    #product-details .product {
+        flex-direction: column;
+    }
+
+    #hero .hero-text h2 {
+        padding: 20px 0px;
+    }
+
+    #hero .hero-text {
+        padding: 30px 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* Add styles for screens up to 425px wide */
+    #hero {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+        align-items: flex-start; /* Align items to the start of the column */
+    }
+
+    .hero-img {
+        order: -1; /* Move .hero-img to the beginning of the flex container */
+        margin-top: 20px; /* Add some space between .hero-text and .hero-img */
+    }
+
+    #hero .hero-img img {
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    #header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #header ul {
+        padding: 30px;
+    }
+
+    #header img {
+        padding: 20px;
+    }
+
+    #product-details .product {
+        flex-direction: column;
+    }
+
+    #hero .hero-text h2 {
+        padding: 20px 0px;
+    }
+
+    #hero .hero-text {
+        padding: 30px 40px;
+    }
+
+    footer .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90%;
+    }
+    .about-section h1 {
+        color: #DEDAD7;
+        padding-bottom: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* Add styles for screens up to 375px wide */
+    .about-section h4 {
+        font-size: 15px;
+
+    }
+
+    .about-section h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* Add styles for screens up to 320px wide */
+
+    #header ul {
+        padding: 30px 17px;
+        gap: 60px;
+    }
+
+    #hero .hero-text h2 {
+        font-size: 30px;
+    }
+    #product-details {
+        padding: 60px 20px;
+    }
+
+    #product-details .top-text h1, h5 {
+        font-size: 35px;
+    }
+
+    #product-details .top-text h5 {
+        font-size: 15px;
+    }
+
+    .product {
+        width: 100%;
+        height: 1170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+}
