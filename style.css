@@ -154,6 +154,9 @@ a {
     color: #DEDAD7;
     font-size: 20px;
     transition: 0.30s ease;
+    display: Flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero .hero-text button:hover {
