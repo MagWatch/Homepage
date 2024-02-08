@@ -105,7 +105,6 @@ a {
 }
 
 #header ul .active {
-    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -119,7 +118,6 @@ a {
 }
 
 #header ul a:hover {
-    text-decoration: underline;
     font-weight: bold;
 }
 
