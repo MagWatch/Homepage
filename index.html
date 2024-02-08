@@ -35,7 +35,7 @@
 
     <div class="product">
         <div class="product-image">
-            <video id="productVideo" muted playsinline loop>
+            <video id="productVideo" muted playsinline autoplay loop>
                 <source src="imgs/reel.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -155,41 +155,8 @@
 
 
 
-<script href="script.js">const video = document.getElementById('productVideo');
-
-    function isElementInViewport(el) {
-        const rect = el.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-
-    function playVideoIfVisible() {
-        if (isElementInViewport(video) && video.paused) {
-            video.play().catch(error => console.error(error));
-            window.removeEventListener('scroll', playVideoIfVisible);
-        }
-    }
-
-    // Attach the playVideoIfVisible function to the scroll event
-    window.addEventListener('scroll', playVideoIfVisible);
-
-    // Initial check in case the element is already in view
-    playVideoIfVisible();
-    
-    function toggleAnswer(questionId) {
-        var answer = document.getElementById(questionId);
-
-        // Toggle the answer's display property
-        if (answer.style.display === 'block') {
-            answer.style.display = 'none';
-        } else {
-            answer.style.display = 'block';
-        }
-    }
+<script href="script.js">document.addEventListener("DOMContentLoaded", function() {
+});
     
     
     
