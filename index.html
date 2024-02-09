@@ -161,6 +161,16 @@
 
 <script href="script.js">document.addEventListener("DOMContentLoaded", function() {
 });
+    function toggleAnswer(questionId) {
+    var answer = document.getElementById(questionId);
+
+    // Toggle the answer's display property
+    if (answer.style.display === 'block') {
+        answer.style.display = 'none';
+    } else {
+        answer.style.display = 'block';
+    }
+}
     
     
     
