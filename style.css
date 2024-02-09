@@ -82,6 +82,31 @@ a {
     transition: opacity 1s ease-in-out;
 }
 
+#announcement-tape {
+    width: 100%;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#announcement-text {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    color: #DEDAD7;
+    animation: scroll 20s linear infinite both;
+    transform: translateX(50%);
+}
+
+
+@keyframes scroll {
+    0% { transform: translateX(100%); } /* Start off-screen to the right */
+    100% { transform: translateX(-100%); } /* Scroll to off-screen to the left */
+}
+
 /*Header*/
 
 #header {
